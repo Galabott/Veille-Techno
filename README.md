@@ -25,7 +25,6 @@
 
 *Format à suivre*
 
-● Page de présentation
 
 ● Table des matières
 
