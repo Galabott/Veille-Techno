@@ -23,7 +23,7 @@
 </div>
 <br/><br/>
 
-#Format à suivre#
+*Format à suivre*
 
 ● Page de présentation
 
