@@ -23,20 +23,22 @@
 </div>
 <br/><br/>
 
-*Format à suivre*
+# Table des matières
+1. [Introduction](#Introduction)
+2. [Développement](#Développement)
 
+## Introduction
 
-● Table des matières
+En tant que programmeur, nous savons que la technologie est quelque chose qui évolue constamment. En effet, nous en sommes un des premiers groupes touchés par cette révolution, principalement car elle dicte nos outils, et nos futurs projets.
 
-● Introduction
+Il est de nôtre devoir d'être capable d'évoluer dans ce domaine, et d'être capable de s'approprier de nouvelles technologies. Malgré que nos cours nous parlent d'un grand nombre de langages de programmations recherchés de nos jours, ils ne peuvent pas tout nous montrer.
+Le web, étant une matière très populaire en 2023, est une technologie qui n'est pas exclu de notre situation. Le GO est un langage qui est simple à apprendre, et il sera le sujet de cette recherche.
 
-	○ Sujet amené
+Pendant ces deux prochaines semaines, j'essaierai de m'apprivoiser sur le GO en essayant de créer un CRUDL complet, avec un système de connexion, et le tout relié à une base de données avec MySql, qui agira aussi comme serveur pour le site web. 
 
-	○ Sujet posé
+## Développement
 
-	○ Sujet divisé
-
-	○ Note : Faire une liaison entre l’introduction et le projet
+La recherche portera sur le GO, et elle aura comme simple but de créer un CRUDL simple avec un système de connexion, une liaison avec une base de données MySql, puis une interface à l'aide d'une utilisation simple de HTML, tout simplement pour démontrer les principes.
 
 ● Développement
 
