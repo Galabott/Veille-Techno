@@ -42,7 +42,7 @@ La recherche portera sur le GO, et elle aura comme simple but de créer un CRUDL
 
 ● Développement
 
-	○ Les besoins de la recherche ou du projet
+	~~ Les besoins de la recherche ou du projet ~~
 
 	○ L’historique (Ne pas trop s’étaler, seulement la base)
 
