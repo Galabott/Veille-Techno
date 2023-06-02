@@ -40,9 +40,8 @@ Pendant ces deux prochaines semaines, j'essaierai de m'apprivoiser sur le GO en 
 
 La recherche portera sur le GO, et elle aura comme simple but de créer un CRUDL simple avec un système de connexion, une liaison avec une base de données MySql, puis une interface à l'aide d'une utilisation simple de HTML, tout simplement pour démontrer les principes.
 
-● Développement
 
-	~~ Les besoins de la recherche ou du projet ~~
+~~ Les besoins de la recherche ou du projet ~~
 
 	○ L’historique (Ne pas trop s’étaler, seulement la base)
 
