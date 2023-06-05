@@ -28,8 +28,8 @@
 2. [Développement](#Développement)
 	2.1 [Historique](#Historique)
 	2.2 [Méthodologie](#Méthodologie)
-	2.3 [Les résultats obtenus](#Les&#32;résultats&#32;obtenus)
-	2.4 [Le débat](#Le&#32;débat)
+	2.3 [Résultats](#Résultats)
+	2.4 [Débat](#Débat)
 3 [Conclusion](#Conclusion)
 4. [Médiagraphie](#Médiagraphie)
 
@@ -63,7 +63,7 @@ Après mon expérience précédente sur mes anciens projets présentés en class
 5. J'ai ensuite lié les deux ensembles pour créer un système de connexion qui utilise une base de données, et des cookies.
 6. J'ai ensuite complété le projet en créant un CRUDL simple.
 
-### Les résultats obtenus
+### Résultats
 Quel résultat est-ce que l’on a obtenu?
 
 Est-ce que c’est ce à quoi on s’attendait?
@@ -71,7 +71,7 @@ Est-ce que l’effort était celle attendues?
 Etc.
 
 
-### Le débat
+### Débat
 
 Est-ce que les résultats auraient pu être mieux avec d’autres méthodes?
 
