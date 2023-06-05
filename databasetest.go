@@ -7,10 +7,6 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
-type Tag struct {
-	ID   int    `json:"ID"`
-	Name string `json:"NAME"`
-}
 
 func main2() {
 

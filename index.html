@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+    {{ if . }}
+        <p>Heres some content</p>
+        <a href="/logout">logout</a>
+
+
+        <form action="/add-tag" method="post">
+            <label for="name">Tag Name :</label></br>
+            <input type="text" id="name" name="name" value="" /></br>
+            <input type="submit" value="submit" />
+        </form>
+
+    {{else}}
+        <p>You must be logged in to see the content</p>
+        <a href="/login">login</a>
+        <a href="/signup">signup</a>
+    {{end}}
+</html>
