@@ -28,8 +28,8 @@
 2. [Développement](#Développement)
 	2.1 [Historique](#Historique)
 	2.2 [Méthodologie](#Méthodologie)
-	2.3 [Les résultats obtenus](#Les_résultats_obtenus)
-	2.4 [Le débat](#Le_débat)
+	2.3 [Les résultats obtenus](#Les&#32résultats&#32obtenus)
+	2.4 [Le débat](#Le&#32débat)
 3 [Conclusion](#Conclusion)
 4. [Médiagraphie](#Médiagraphie)
 
