@@ -26,10 +26,15 @@
 # Table des matières
 1. [Introduction](#Introduction)
 2. [Développement](#Développement)
-2.1. [Historique](#Historique)
-2.2. [Méthodologie](#Méthodologie)
-2.3. [Résultats](#Résultats)
-2.4. [Débat](#Débat)
+
+  2.1. [Historique](#Historique)
+
+  2.2. [Méthodologie](#Méthodologie)
+
+  2.3. [Résultats](#Résultats)
+
+  2.4. [Débat](#Débat)
+
 3. [Conclusion](#Conclusion)
 4. [Médiagraphie](#Médiagraphie)
 
