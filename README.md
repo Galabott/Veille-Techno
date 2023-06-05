@@ -27,6 +27,17 @@
 1. [Introduction](#Introduction)
 2. [Développement](#Développement)
 
+    2.1. [Historique](#Historique)
+
+    2.2. [Méthodologie](#Méthodologie)
+
+    2.3. [Résultats](#Résultats)
+
+    2.4. [Débat](#Débat)
+
+3. [Conclusion](#Conclusion)
+4. [Médiagraphie](#Médiagraphie)
+
 ## Introduction
 
 En tant que programmeur, nous savons que la technologie est quelque chose qui évolue constamment. En effet, nous en sommes un des premiers groupes touchés par cette révolution, principalement car elle dicte nos outils, et nos futurs projets.
@@ -42,11 +53,11 @@ Besoins
 
 La recherche portera sur le GO, et elle aura comme simple but de créer un CRUDL simple avec un système de connexion, une liaison avec une base de données MySql, puis une interface à l'aide d'une utilisation simple de HTML, tout simplement pour démontrer les principes.
 
-Historique
+### Historique
 
 Le GO est un langage récent ...
 
-Méthodologie
+### Méthodologie
 
 Après mon expérience précédente sur mes anciens projets présentés en classe et la recherche qui m'a permis d'en apprendre plus sur le GO, j'ai ensuite développer une série d'étapes simples à suivre pour être en mesure de procurer un CRUDL simple.
 
@@ -57,41 +68,24 @@ Après mon expérience précédente sur mes anciens projets présentés en class
 5. J'ai ensuite lié les deux ensembles pour créer un système de connexion qui utilise une base de données, et des cookies.
 6. J'ai ensuite complété le projet en créant un CRUDL simple.
 
+### Résultats
+Quel résultat est-ce que l’on a obtenu?
+
+Est-ce que c’est ce à quoi on s’attendait?
+Est-ce que l’effort était celle attendues?
+Etc.
 
 
-~~Les besoins de la recherche ou du projet~~
-~~La méthodologie (Comment on a fait le projet)~~
+### Débat
 
+Est-ce que les résultats auraient pu être mieux avec d’autres méthodes?
 
-	○ L’historique (Ne pas trop s’étaler, seulement la base)
+Les sujets similaires
 
-	○ Les résultats obtenus
+## Conclusion
+Rappel
+Remise en question
+Autres chemins possibles
 
-		■ Quel résultat est-ce que l’on a obtenu?
+## Médiagraphie
 
-		■ Est-ce que c’est ce à quoi on s’attendait?
-
-		■ Est-ce que l’effort était celle attendues?
-
-		■ Etc.
-
-	○ Le débat
-
-		■ Est-ce que les résultats auraient pu être mieux avec d’autres méthodes?
-
-		■ Etc.
-
-	○ Les sujets similaires
-
-● Conclusion
-
-	○ Rappel
-
-	○ Remise en question
-
-	○ Autres chemins possibles
-
-● Médiagraphie
-
-
----
