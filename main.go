@@ -305,7 +305,7 @@ func indexTemplate(w http.ResponseWriter, r *http.Request) {
 				panic(err.Error()) // proper error handling instead of panic in your app
 			}
 			// and then print out the tag's Name attribute
-			w.Write([]byte("<h5>" + tag.NAME + "</h5><a href=/del-tag?id=" + strconv.Itoa(tag.ID) + ">Delete it</a>"))
+			w.Write([]byte("<h5>" + tag.NAME + "</h5><a href=/del-tag?id=" + strconv.Itoa(tag.ID) + ">Delete it</a><a href=/update-tag?id=" + strconv.Itoa(tag.ID) + ">Update It</a>"))
 		}
 
 		////////////////////////////////
@@ -406,6 +406,86 @@ func deltagHandler(w http.ResponseWriter, r *http.Request) {
 	println("4")
 
 	w.Write([]byte("Tag Deleted"))
+}
+
+func updatetagTemplate(w http.ResponseWriter, r *http.Request) {
+
+	// type loginPageParams struct {
+	// 	authenticated bool
+	// 	username      string
+	// }
+
+	if r.Method != "GET" {
+		http.Error(w, "Method Not Supported", http.StatusMethodNotAllowed)
+		return
+	}
+	// ParseForm parses the raw query from the URL and updates r.Form
+	err := r.ParseForm()
+	if err != nil {
+		http.Error(w, "Please pass the data as URL form encoded", http.StatusBadRequest)
+		return
+	}
+
+	id := r.Form.Get("id")
+
+	db, err := sql.Open("mysql", "etd:shawi@tcp(192.168.18.141:3306)/Golang")
+
+	if err != nil {
+		log.Print(err.Error())
+	}
+	defer db.Close()
+
+	results, err := db.Query("SELECT id, user_id, name FROM tags WHERE id = " + id)
+	if err != nil {
+		panic(err.Error()) // proper error handling instead of panic in your app
+	}
+
+	for results.Next() {
+		var tag Tag
+		// for each row, scan the result into our tag composite object
+		err = results.Scan(&tag.ID, &tag.USER_ID, &tag.NAME)
+		if err != nil {
+			panic(err.Error()) // proper error handling instead of panic in your app
+		}
+		// and then print out the tag's Name attribute
+		w.Write([]byte("<h1>Update Tag</h1><form action=\"/update-tag\" method=\"post\"><label for=\"tagname\">Tag Name :</label></br><input type=\"text\" id=\"tagname\" name=\"tagname\" value=\"" + tag.NAME + "\" /></br><input type=\"submit\" value=\"submit\" /><input type=\"hidden\" name=\"tagid\" id=\"tagid\" value=\"" + id + " \" /></form>"))
+
+	}
+}
+
+func updatetagHandler(w http.ResponseWriter, r *http.Request) {
+
+	if r.Method != "POST" {
+		http.Error(w, "Method Not Supported", http.StatusMethodNotAllowed)
+		return
+	}
+	// ParseForm parses the raw query from the URL and updates r.Form
+	err := r.ParseForm()
+	if err != nil {
+		http.Error(w, "Please pass the data as URL form encoded", http.StatusBadRequest)
+		return
+	}
+
+	id := r.Form.Get("tagid")
+	tagname := r.Form.Get("tagname")
+
+	db, err := sql.Open("mysql", "etd:shawi@tcp(192.168.18.141:3306)/Golang")
+	if err != nil {
+		log.Print(err.Error())
+	}
+	defer db.Close()
+
+	query := `UPDATE tags SET name = "` + tagname + `" WHERE id = ` + id
+
+	fmt.Println(query)
+
+	_, err = db.Exec(query)
+	if err != nil {
+		http.Error(w, "An Error Occured", http.StatusUnauthorized)
+		return
+	}
+
+	w.Write([]byte("Tag Updated"))
 
 }
 
@@ -418,6 +498,8 @@ func main() {
 	r.HandleFunc("/signup", signupTemplate).Methods("GET")
 	r.HandleFunc("/add-tag", addtagHandler).Methods("POST")
 	r.HandleFunc("/del-tag", deltagHandler).Methods("GET")
+	r.HandleFunc("/update-tag", updatetagTemplate).Methods("GET")
+	r.HandleFunc("/update-tag", updatetagHandler).Methods("POST")
 	r.HandleFunc("/", indexTemplate).Methods("GET")
 
 	// modifying default http import struct to add an extra property
