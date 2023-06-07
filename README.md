@@ -42,89 +42,83 @@
 
 ## Introduction
 
-En tant que programmeur, nous savons que la technologie est quelque chose qui évolue constamment. En effet, nous en sommes un des premiers groupes touchés par cette révolution, principalement car elle dicte nos outils, et nos futurs projets.
+En tant que programmeurs, nous savons que la technologie évolue constamment. En effet, nous faisons partie des premiers groupes touchés par cette révolution, principalement parce qu'elle dicte nos outils et nos futurs projets.
 
-Il est de nôtre devoir d'être capable d'évoluer dans ce domaine, et d'être capable de s'approprier de nouvelles technologies. Malgré que nos cours nous parlent d'un grand nombre de langages de programmations recherchés de nos jours, ils ne peuvent pas tout nous montrer.
-Le web, étant une matière très populaire en 2023, est une technologie qui n'est pas exclu de notre situation. Le GO est un langage qui est simple à apprendre, et il sera le sujet de cette recherche.
+Il est de notre devoir d'être capables d'évoluer dans ce domaine et de nous approprier de nouvelles technologies. Bien que nos cours nous exposent à un grand nombre de langages de programmation recherchés de nos jours, ils ne peuvent pas tout nous montrer. Le web, étant un sujet très populaire en 2023, fait partie intégrante de notre réalité. Le langage Go, simple à apprendre, sera le sujet de cette recherche.
 
-Pendant ces deux prochaines semaines, j'essaierai de m'apprivoiser sur le GO en essayant de créer un CRUDL complet, avec un système de connexion, et le tout relié à une base de données avec MySql, qui agira aussi comme serveur pour le site web. 
+Pendant les deux prochaines semaines, j'essaierai de me familiariser avec Go en créant un CRUDL complet, comprenant un système de connexion, le tout relié à une base de données MySQL qui servira également de serveur pour le site web.
 
 ## Développement
 
 ### Besoins
 
-La recherche portera sur le GO, et elle aura comme simple but de créer un CRUDL simple avec un système de connexion, une liaison avec une base de données MySql, puis une interface à l'aide d'une utilisation simple de HTML, tout simplement pour démontrer les principes et ne pas avoir une interface console.
+La recherche portera sur Go et aura pour but de créer un CRUDL simple avec un système de connexion, une liaison avec une base de données MySQL, et une interface utilisant simplement HTML, afin de démontrer les principes sans recourir à une interface console.
 
-Ce projet me permettera d'expérimenter un langage qui n'a pas été vu en classe, et d'en faire un projet CRUDL, ce qui facilitera la comparaison avec le GO et me permettera de me faire une opinion sur le sujet.
+Ce projet me permettra d'expérimenter un langage qui n'a pas été abordé en classe et de réaliser un projet CRUDL, facilitant ainsi la comparaison avec Go et me permettant de me forger une opinion sur le sujet.
 
 ### Historique
 
-Le GO est un langage de programmation développé par Google. Créé en 2007, ce n'est qu'en 2009 qu'il est devenu publique, et ce n'est qu'en 2012 qu'il a commencé à prendre de la popularité depuis le lancement de la version 1 dans la même année. Malgré qu'il est récent et vise à réparer les failles d'anciens langages pour en créer un meilleur, il est fortement inspiré du Pascal et du C.
+Go est un langage de programmation développé par Google. Créé en 2007, il est devenu public en 2009 et a gagné en popularité depuis le lancement de la version 1 en 2012. Bien qu'il soit récent et conçu pour remédier aux lacunes des anciens langages, il s'inspire fortement du Pascal et du C.
 
 ### Méthodologie
 
-Après mon expérience précédente sur mes anciens projets présentés en classe et la recherche qui m'a permis d'en apprendre plus sur le GO, j'ai ensuite développé une série d'étapes simples à suivre pour être en mesure de procurer un CRUDL simple.
+Après avoir tiré des enseignements de mes projets précédents présentés en classe et grâce à mes recherches sur Go, j'ai développé une série d'étapes simples à suivre pour mettre en place un CRUDL simple.
 
-1. J'ai débuté par faire ma recherche. Une recherche sur les possiblités du GO, ses origines, et ses utilités.
-2. J'ai continué en recherchant plusieurs tutoriels, de la documentation, et autres pour m'accoutumer au GOlang.
-3. J'ai débuté par faire un système de connexion simple avec un storage local dans le programme.
-4. J'ai expérimenté avec des connexions en base de données, avec un "Select" et un "Insert" simples.
-5. J'ai ensuite lié les deux ensembles pour créer un système de connexion qui utilise une base de données, et des cookies.
-6. J'ai ensuite complété le projet en créant un CRUDL simple.
+1. J'ai commencé par effectuer des recherches sur les possibilités de Go, son origine et ses utilisations.
+2. Ensuite, j'ai consulté plusieurs tutoriels, documentations et autres ressources pour me familiariser avec Go.
+3. J'ai commencé par créer un système de connexion simple avec un stockage local dans le programme.
+4. J'ai expérimenté les connexions à une base de données en effectuant des requêtes "Select" et "Insert" simples.
+5. Ensuite, j'ai combiné les deux pour créer un système de connexion utilisant une base de données et des cookies.
+6. Enfin, j'ai achevé le projet en créant un CRUDL simple.
 
 ### Résultats
 
-Au final, j'ai été capable de créer mon projet comme j'avais planifié.
+Au final, j'ai réussi à réaliser mon projet tel que prévu.
 
-L'interface en HTML est simple et très rudimentaire, mais assez pour donner une interface simple à utiliser pour démontrer le fonctionnement du projet. Elle contient un système de connexion et de création de compte, et un CRUDL simple. Le CRUDL permet d'ajouter, de modifier et de supprimer des Tags qui sont affichés dans une "liste", et les fonctions du CRUDL sont gérées par un formulaire HTML (Créer et Modifier) et par des liens (Modifier et Supprimer).
+L'interface en HTML est simple et rudimentaire, mais suffisante pour démontrer le fonctionnement du projet. Elle comprend un système de connexion et de création de compte, ainsi qu'un CRUDL simple. Le CRUDL permet d'ajouter, de modifier et de supprimer des balises affichées dans une liste, et les fonctionnalités du CRUDL sont gérées par un formulaire HTML (Créer et Modifier) et des liens (Modifier et Supprimer).
 
-Avec le système de connexion, il est impossible d'accéder au CRUDL sans être connecté.
+Grâce au système de connexion, il est impossible d'accéder au CRUDL sans être connecté.
 
-La base de données a été faite avec MySql, et a deux tables: une table "Users", et une table "Tags".
+La base de données a été créée avec MySQL et comprend deux tables : une table "Users" et une table "Tags".
 
-Le GO fait l'intermédiaire entre les deux. Il gère les interactions des utilisateurs et des tags entre l'HTML et le SQL.
-Le GO sert aussi à gérer le serveur, permettant de mettre une adresse et un port, et de gérer les routes utilisées.
+Go fait le lien entre les deux. Il gère les interactions des utilisateurs et des balises entre HTML et SQL. Go sert également à gérer le serveur en permettant de spécifier une adresse et un port, ainsi qu'à gérer les routes utilisées.
 
-L'utilisation des packages m'a permis d'avoir un système de connexion qui utilise les cookies.
-J'avais tenté de voir si l'utilisation du stockage local était possible, mais l'utilisation des cookies me semblait le plus simple en GO, et l'utilisation de packages provenant directement de Github m'a permis d'avoir un système de connexion qui était simple et efficace en rajoutant seulement quelques lignes simples dans le code source.
+L'utilisation de packages m'a permis de mettre en place un système de connexion utilisant des cookies. J'ai exploré la possibilité d'utiliser un stockage local, mais l'utilisation de cookies m'a semblé plus simple en Go, et l'utilisation de packages provenant directement de GitHub m'a permis de disposer d'un système de connexion simple et efficace en ajoutant simplement quelques lignes de code.
 
-Donc, selon mes attentes, je les ai dépassées légèrement en faisant l'ajout du système de connexion, tout en incluant un CRUDL fonctionnel qui utilise une base de données.
+Ainsi, j'ai dépassé mes attentes en ajoutant le système de connexion tout en incluant un CRUDL fonctionnel qui utilise une base de données.
 
 ### Débat
 
-Angular vs GO
+Angular vs Go
 
-Malgré que le GO est un langage qui est simple à apprendre et qu'il laisse beaucoup plus d'espace au développeur, je préfère absolument l'Angular.
-Basé sur l'expérience de mon dernier projet avec Angular, ces projets sont plus volumineux, et contiennt beaucoup plus de fichiers pour faire fonctionner une application web, mais malgré ce détail, l'Angular ne demande pas d'autres langages et peut être utilisé indépendamment.
-Le GO, lui est beaucoup plus simple d'utilisation, mais il pousse une philosophie semblable à "Facile à apprendre, difficile à maitriser". J'ai pu faire fonctionner une application en entier avec un fichier. Il permettait de faire fonctionner le serveur, les templates, de faire les intéractions avec la base de données et l'interface. Malgré cette simplicité, le GO ne peut fonctionner que par lui même. En effet, pour faire recharger une liste sans faire recharger une page complète, le GO demande une utilisation de Javascript, alors que l'Angular le permet sans utiliser d'autres langages pour gérer son intéractivité.
+Bien que Go soit un langage simple à apprendre et laisse davantage de liberté au développeur, je préfère de loin Angular. Fort de mon expérience sur mon dernier projet avec Angular, ces projets sont plus volumineux et comportent davantage de fichiers pour faire fonctionner une application web. Malgré ce détail, Angular ne nécessite pas d'autres langages et peut être utilisé indépendamment. Go, en revanche, est beaucoup plus simple à utiliser, mais adopte une philosophie similaire à celle de "Facile à apprendre, difficile à maîtriser". J'ai pu faire fonctionner une application complète avec un seul fichier. Ce fichier permettait de faire fonctionner le serveur, les templates, les interactions avec la base de données et l'interface. Malgré cette simplicité, Go ne peut fonctionner que par lui-même. En effet, pour recharger une liste sans recharger une page entière, Go nécessite l'utilisation de JavaScript, tandis qu'Angular le permet sans recourir à d'autres langages pour gérer son interactivité.
 
 ## Conclusion
 
-Pour conclure, le projet en utilisant le GO a été un succès. Malgré que le résultat final n'est en aucun cas un produit final, et qu'il y a place à beaucoup d'amélioration, j'ai été capable d'apprendre le GO, de gérer l'intéraction du HTML, de gérer l'intéraction en base de données, de lier les deux, de faire un CRUDL et un système de connexion qui utilise des cookies.
+En conclusion, le projet utilisant Go a été un succès. Bien que le résultat final ne soit en aucun cas un produit final et qu'il y ait encore beaucoup de place pour amélioration, j'ai réussi à apprendre Go, à gérer l'interaction entre HTML et la base de données, à créer un CRUDL et un système de connexion utilisant des cookies.
 
-Après ce projet, utiliserais-je le GO pour un projet personnel? Malgré que le GO est simple d'utilisation, et que son apprentissage m'intéresse, je me sens beaucoup plus à l'aise de faire un projet web en Angular, car je connais les possibilités de l'Angular et les restrictions du GO me font pencher du côté de l'Angular.
-
+Après ce projet, vais-je utiliser Go pour un projet personnel ? Bien que Go soit simple à utiliser et que son apprentissage m'intéresse, je me sens beaucoup plus à l'aise pour réaliser un projet web avec Angular, car je connais les possibilités d'Angular et les limitations de Go me font pencher du côté d'Angular.
 
 ## Médiagraphie
 
-Setapp. (n.d.). How to Use Go with MySQL: A Step-by-Step Guide. Retrieved from https://setapp.com/how-to/use-go-with-mysql
+    Setapp. (n.d.). How to Use Go with MySQL: A Step-by-Step Guide. Récupéré de https://setapp.com/how-to/use-go-with-mysql
 
-w3schools.com. (n.d.). Go Tutorial. Retrieved from https://www.w3schools.com/go/
+    w3schools.com. (n.d.). Go Tutorial. Récupéré de https://www.w3schools.com/go/
 
-Go.dev. (n.d.). Go Documentation. Retrieved from https://go.dev/doc/
+    Go.dev. (n.d.). Go Documentation. Récupéré de https://go.dev/doc/
 
-Sathish, K. (2019, March 19). Go Tutorial for Beginners #3 - Functions in Go. [Video]. YouTube. https://www.youtube.com/watch?v=BOxBcuvASag&list=PLve39GJ2D71yyECswi0lVaBm_gbnDRR9v&index=3
+    Sathish, K. (2019, March 19). Go Tutorial for Beginners #3 - Functions in Go. [Video]. YouTube. Récupéré de https://www.youtube.com/watch?v=BOxBcuvASag&list=PLve39GJ2D71yyECswi0lVaBm_gbnDRR9v&index=3
 
-Traversy Media. (2017, May 4). GoLang Crash Course #1: Introduction and Installation. [Video]. YouTube. https://www.youtube.com/watch?v=446E-r0rXHI
+    Traversy Media. (2017, May 4). GoLang Crash Course #1: Introduction and Installation. [Video]. YouTube. Récupéré de https://www.youtube.com/watch?v=446E-r0rXHI
 
-devhints.io. (n.d.). Go by Example. Retrieved from https://devhints.io/go
+    devhints.io. (n.d.). Go by Example. Récupéré de https://devhints.io/go
 
-Trio. (2021, February 5). What Is Golang Used For? Retrieved from https://www.trio.dev/blog/what-is-golang-used-for
+    Trio. (2021, February 5). What Is Golang Used For? Récupéré de https://www.trio.dev/blog/what-is-golang-used-for
 
-Mindinventory. (2021, March 24). Pros and Cons of Programming in Golang. Retrieved from https://www.mindinventory.com/blog/pros-and-cons-programming-in-golang/
+    Mindinventory. (2021, March 24). Pros and Cons of Programming in Golang. Récupéré de https://www.mindinventory.com/blog/pros-and-cons-programming-in-golang/
 
-Basic Go. (n.d.). Structs Explained. Retrieved from https://yourbasic.org/golang/structs-explained/#:~:text=with%20dot%20notation.-,2%20ways%20to%20create%20and%20initialize%20a%20new%20struct,to%20the%20newly%20created%20struct.&text=You%20can%20also%20create%20and%20initialize%20a%20struct%20with%20a%20struct%20literal.&text=An%20element%20list%20that%20contains,element%20for%20each%20struct%20field.
+    Basic Go. (n.d.). Structs Explained. Récupéré de https://yourbasic.org/golang/structs-explained/#:~:text=with%20dot%20notation.-,2%20ways%20to%20create%20and%20initialize%20a%20new%20struct,to%20the%20newly%20created%20struct.&text=You%20can%20also%20create%20and%20initialize%20a%20struct%20with%20a%20struct%20literal.&text=An%20element%20list%20that%20contains,element%20for%20each%20struct%20field.
 
-Golang By Example. (n.d.). SHA256 Hashes. Retrieved from https://gobyexample.com/sha256-hashes
+    Golang By Example. (n.d.). SHA256 Hashes. Récupéré de https://gobyexample.com/sha256-hashes
 
-Golang By Example. (n.d.). How to Set a Cookie in HTTP Using Golang. Retrieved from https://golangbyexample.com/set-cookie-http-golang/
+    Golang By Example. (n.d.). How to Set a Cookie in HTTP Using Golang. Récupéré de https://golangbyexample.com/set-cookie-http-golang/
