@@ -48,6 +48,8 @@ Il est de notre devoir d'être capables d'évoluer dans ce domaine et de nous ap
 
 Pendant les deux prochaines semaines, j'essaierai de me familiariser avec Go en créant un CRUDL complet, comprenant un système de connexion, le tout relié à une base de données MySQL qui servira également de serveur pour le site web.
 
+![image](https://github.com/Galabott/Veille-Techno/assets/94148198/5f95551a-a6ff-4f7b-b8f2-c13d18f0e178)
+
 ## Développement
 
 ### Besoins
