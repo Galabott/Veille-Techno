@@ -101,24 +101,24 @@ Après ce projet, vais-je utiliser Go pour un projet personnel ? Bien que Go soi
 
 ## Médiagraphie
 
-    Setapp. (n.d.). How to Use Go with MySQL: A Step-by-Step Guide. Récupéré de https://setapp.com/how-to/use-go-with-mysql
+Setapp. (n.d.). How to Use Go with MySQL: A Step-by-Step Guide. Récupéré de https://setapp.com/how-to/use-go-with-mysql
 
-    w3schools.com. (n.d.). Go Tutorial. Récupéré de https://www.w3schools.com/go/
+w3schools.com. (n.d.). Go Tutorial. Récupéré de https://www.w3schools.com/go/
 
-    Go.dev. (n.d.). Go Documentation. Récupéré de https://go.dev/doc/
+Go.dev. (n.d.). Go Documentation. Récupéré de https://go.dev/doc/
 
-    Sathish, K. (2019, March 19). Go Tutorial for Beginners #3 - Functions in Go. [Video]. YouTube. Récupéré de https://www.youtube.com/watch?v=BOxBcuvASag&list=PLve39GJ2D71yyECswi0lVaBm_gbnDRR9v&index=3
+Sathish, K. (2019, March 19). Go Tutorial for Beginners #3 - Functions in Go. [Video]. YouTube. Récupéré de https://www.youtube.com/watch?v=BOxBcuvASag&list=PLve39GJ2D71yyECswi0lVaBm_gbnDRR9v&index=3
 
-    Traversy Media. (2017, May 4). GoLang Crash Course #1: Introduction and Installation. [Video]. YouTube. Récupéré de https://www.youtube.com/watch?v=446E-r0rXHI
+Traversy Media. (2017, May 4). GoLang Crash Course #1: Introduction and Installation. [Video]. YouTube. Récupéré de https://www.youtube.com/watch?v=446E-r0rXHI
 
-    devhints.io. (n.d.). Go by Example. Récupéré de https://devhints.io/go
+devhints.io. (n.d.). Go by Example. Récupéré de https://devhints.io/go
 
-    Trio. (2021, February 5). What Is Golang Used For? Récupéré de https://www.trio.dev/blog/what-is-golang-used-for
+Trio. (2021, February 5). What Is Golang Used For? Récupéré de https://www.trio.dev/blog/what-is-golang-used-for
 
-    Mindinventory. (2021, March 24). Pros and Cons of Programming in Golang. Récupéré de https://www.mindinventory.com/blog/pros-and-cons-programming-in-golang/
+Mindinventory. (2021, March 24). Pros and Cons of Programming in Golang. Récupéré de https://www.mindinventory.com/blog/pros-and-cons-programming-in-golang/
 
-    Basic Go. (n.d.). Structs Explained. Récupéré de https://yourbasic.org/golang/structs-explained/#:~:text=with%20dot%20notation.-,2%20ways%20to%20create%20and%20initialize%20a%20new%20struct,to%20the%20newly%20created%20struct.&text=You%20can%20also%20create%20and%20initialize%20a%20struct%20with%20a%20struct%20literal.&text=An%20element%20list%20that%20contains,element%20for%20each%20struct%20field.
+Basic Go. (n.d.). Structs Explained. Récupéré de https://yourbasic.org/golang/structs-explained/#:~:text=with%20dot%20notation.-,2%20ways%20to%20create%20and%20initialize%20a%20new%20struct,to%20the%20newly%20created%20struct.&text=You%20can%20also%20create%20and%20initialize%20a%20struct%20with%20a%20struct%20literal.&text=An%20element%20list%20that%20contains,element%20for%20each%20struct%20field.
 
-    Golang By Example. (n.d.). SHA256 Hashes. Récupéré de https://gobyexample.com/sha256-hashes
+Golang By Example. (n.d.). SHA256 Hashes. Récupéré de https://gobyexample.com/sha256-hashes
 
-    Golang By Example. (n.d.). How to Set a Cookie in HTTP Using Golang. Récupéré de https://golangbyexample.com/set-cookie-http-golang/
+Golang By Example. (n.d.). How to Set a Cookie in HTTP Using Golang. Récupéré de https://golangbyexample.com/set-cookie-http-golang/
