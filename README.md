@@ -80,12 +80,21 @@ L'interface en HTML est simple et rudimentaire, mais suffisante pour démontrer 
 Grâce au système de connexion, il est impossible d'accéder au CRUDL sans être connecté.
 
 La base de données a été créée avec MySQL et comprend deux tables : une table "Users" et une table "Tags".
+Les tags sont l'objet principal du projet, contenant un nom, un user id, et un id.
+Les utilisateurs n'étaient qu'un ajout au projet en général.
+
 
 Go fait le lien entre les deux. Il gère les interactions des utilisateurs et des balises entre HTML et SQL. Go sert également à gérer le serveur en permettant de spécifier une adresse et un port, ainsi qu'à gérer les routes utilisées.
 
 L'utilisation de packages m'a permis de mettre en place un système de connexion utilisant des cookies. J'ai exploré la possibilité d'utiliser un stockage local, mais l'utilisation de cookies m'a semblé plus simple en Go, et l'utilisation de packages provenant directement de GitHub m'a permis de disposer d'un système de connexion simple et efficace en ajoutant simplement quelques lignes de code.
 
+Le tout était hébergé sur une machine virtuelle sur ma machine qui utilisait avec Linux Debian.
+
 Ainsi, j'ai dépassé mes attentes en ajoutant le système de connexion tout en incluant un CRUDL fonctionnel qui utilise une base de données.
+
+Malgré que le projet a été effectué de la façon que j'espérais, le code en tant que tel est assez rudimentaire.
+Je n'ai pas eu le temps de faire un nettoyage pour enlever des répetitions inutiles de code en les mettant dans des fonctions, ce qui aurait allégé mon code.
+De plus, le tout fonctionne sur un fichier que je fait exécuter avec la console, alors que j'aurais dû faire une séparation de ceux-ci en plusieurs fichiers.
 
 ### Débat
 
