@@ -96,6 +96,9 @@ Malgré que le projet a été effectué de la façon que j'espérais, le code en
 Je n'ai pas eu le temps de faire un nettoyage pour enlever des répetitions inutiles de code en les mettant dans des fonctions, ce qui aurait allégé mon code.
 De plus, le tout fonctionne sur un fichier que je fait exécuter avec la console, alors que j'aurais dû faire une séparation de ceux-ci en plusieurs fichiers.
 
+Il aurait été intéressant de voir le GO poussé plus loin, mais le temps limité m'a limité mes options.
+En effet, il aurait été intéressant d'essayer de déployer le projet en ligne.
+
 ### Débat
 
 Angular vs Go
